@@ -5,11 +5,55 @@
     <title>Hi! I am Tata</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100,700">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- <link href="css/scrolling-nav.css" rel="stylesheet"> -->
   </head>
   <body>
-    <div class="bio">
-      <h1><em>Hi!</em> My Name is <strong>Tata</strong></h1>
-    </div>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                      <h1 id="typewriter"></h1>                                              
+                </div>
+            </div>
+            <div class="wrap">
+                <a href="#content" class="page-scroll-down"><i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></a> 
+            </div> 
+        </div>
+    </section>
+
+    <!-- <section id="content" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery.typewriter.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Scrolling Nav JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
+
   </body>
 </html>
+<script type="text/javascript">
+  $('#typewriter').typewriter({
+      text: ["Hiii !!!", "My Name is Tata Sutiadi", "I'm a Web Developer"],
+      typeDelay: 100,
+      waitingTime: 100,
+      prefix: "$~ ",
+      blinkSpeed : 100,
+    });
+</script>>

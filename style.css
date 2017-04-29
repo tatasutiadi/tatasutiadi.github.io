@@ -2,28 +2,49 @@ body{
     /*background-image:url(images/me.jpg);*/
     background-size:cover;
     font-family:Raleway,Open Sans,Droid Sans,arial,sans-serif;
+    width: 100%;
+    height: 100%;
 }
-.bio{
-    width:600px;
-    height:200px;
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
-    text-align:center;
+html {
+    width: 100%;
+    height: 100%;
 }
+
 h1,h2{
     font-weight:100;
 }
-h2{
-    font-size:15px;
+.intro {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
 }
-.social-links{margin-top:50px;}
-a{
-    color:#333;
-    text-decoration:none;
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
 }
-a:hover{text-decoration:underline}
-.fa{margin:0 10px;}
+.page-scroll-down {
+    color: #333;
+    top: 20em;
+    display: block;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+}
+a:hover { 
+    background-color: transparent;
+}
+a:hover .page-scroll-down{ 
+    color: #333;
+}
+a:focus,a:hover{color:#333;text-decoration:underline}
+
+.wrap {
+  padding: 1em 0;
+  position: relative;
+  -webkit-transition: margin-bottom 0.2s;
+  transition: margin-bottom 0.2s;
+  z-index: 3;
+}
